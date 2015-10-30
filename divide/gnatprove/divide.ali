@@ -1,0 +1,40 @@
+V "GNAT Lib v2015"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_ELABORATION_CODE
+
+U divide%b		divide.adb		c0ad5240 OO SU IU
+
+U divide%s		divide.ads		1b90ce3e EE OO SU IU
+
+D divide.ads		20151030011835 1b90ce3e divide%s
+D divide.adb		20151030012932 db3d9c7e divide%b
+D system.ads		20150506105329 1d274481 system%s
+X 1 divide.ads
+3U11*DIVIDE 3>18 3>34 4<18 4<35 2|2b11 13l5 13t11
+3i18 X{natural} 6r14 2|2b18 7r9 9r32
+3i34 Y{positive} 6r22 6r44 2|2b34 8r15 9r40 10r16
+4i18 Q{natural} 6r18 2|3b18 6m4 9r36 11m7 11r12
+4i35 R{natural} 6r26 6r34 2|3b35 7m4 8r10 9r44 9r52 10m7 10r12
+FD 1 divide.ads
+FS .1 3U11 divide
+FD 2 divide.adb
+FS .1 2U11 standard__divide -> 1.1
+FD 3 system.ads
+FX 1 divide.ads .1 divide
+F 3>18 divide__x 2|.1:7c9 9c32
+F 3>34 divide__y 2|.1:8c15 9c40 10c16
+F 4<18 divide__q 2|.1:6m4 9r36 11m7 11r12
+F 4<35 divide__r 2|.1:7m4 8r10 9r44 9r52 10m7 10r12
+
+GG S FA divide
+GG VP
+GG VI
+GG VO
+GG CP
+GG CD
+GG CC
+GG LV divide__y divide__r divide__q divide__x
+GG LS

@@ -1,0 +1,356 @@
+{
+  "spark": [
+    {
+      "name": "DIVIDE",
+      "sloc": [
+        {
+          "file": "divide.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "divide.ads",
+      "line": 4,
+      "col": 18,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.ads",
+      "line": 4,
+      "col": 35,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.ads",
+      "line": 6,
+      "col": 26,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.ads",
+      "line": 6,
+      "col": 18,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 44,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 36,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 10,
+      "col": 12,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 11,
+      "col": 12,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 8,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    }
+  ],
+  "proof": [
+    {
+      "file": "divide.ads",
+      "line": 6,
+      "col": 24,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 11,
+      "col": 14,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.ads",
+      "line": 6,
+      "col": 13,
+      "rule": "postcondition",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.ads",
+      "line": 6,
+      "col": 20,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 10,
+      "col": 14,
+      "rule": "range_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 38,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 42,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 7,
+      "rule": "loop_invariant_initialization",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "divide.adb",
+      "line": 9,
+      "col": 7,
+      "rule": "loop_invariant_preservation",
+      "severity": "info",
+      "entity": {
+        "name": "DIVIDE",
+        "sloc": [
+          {
+            "file": "divide.ads",
+            "line": 3
+          }
+        ]
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "DIVIDE",
+          "sloc": [
+            {
+              "file": "divide.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "DIVIDE",
+          "sloc": [
+            {
+              "file": "divide.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "DIVIDE",
+          "sloc": [
+            {
+              "file": "divide.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

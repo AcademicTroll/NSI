@@ -1,0 +1,164 @@
+{
+  "spark": [
+    {
+      "name": "SWAP",
+      "sloc": [
+        {
+          "file": "swap.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+    {
+      "file": "swap.ads",
+      "line": 6,
+      "col": 66,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "swap.adb",
+      "line": 8,
+      "col": 11,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "swap.adb",
+      "line": 7,
+      "col": 11,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "swap.ads",
+      "line": 7,
+      "col": 13,
+      "rule": "postcondition",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "swap.adb",
+      "line": 6,
+      "col": 11,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    },
+    {
+      "file": "swap.ads",
+      "line": 5,
+      "col": 58,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "SWAP",
+        "sloc": [
+          {
+            "file": "swap.ads",
+            "line": 3
+          }
+        ]
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "SWAP",
+          "sloc": [
+            {
+              "file": "swap.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "SWAP",
+          "sloc": [
+            {
+              "file": "swap.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "SWAP",
+          "sloc": [
+            {
+              "file": "swap.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

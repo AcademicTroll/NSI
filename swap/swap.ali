@@ -1,0 +1,23 @@
+V "GNAT Lib v2015"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U swap%b		swap.adb		859d90f7 NE OO SU IU
+
+U swap%s		swap.ads		5d68d251 EE NE OO SU IU
+
+D swap.ads		20151029224235 5d68d251 swap%s
+D swap.adb		20151029211111 d8f542a6 swap%b
+D system.ads		20150506105329 1d274481 system%s
+X 1 swap.ads
+3U11*SWAP 3=16 3=36 2|3b11 9l5 9t9
+3i16 X{integer} 5r17 5r40 6r26 6r47 7r14 7r38 2|3b16 6m4 6r9 7r9 8m4 8r9
+3i36 Y{integer} 5r28 5r60 6r36 6r68 7r22 7r30 2|3b36 6r13 7m4 7r13 8r13
+
