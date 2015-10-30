@@ -1,0 +1,2 @@
+# NSI
+Niezawodne systemy informatyczne
